@@ -75,6 +75,7 @@ const Login: React.FC<LoginFormProps> = ({ axios }) => {
 		</div>
 	) : (
     <form className="form" onSubmit={handleSubmit}>
+			<h2> Todo App</h2>
 			<h3>Login</h3>
 			<p className="response">{response}</p>
 			<input placeholder="Username" type="text" value={username} onChange={handleUsernameChange} />
