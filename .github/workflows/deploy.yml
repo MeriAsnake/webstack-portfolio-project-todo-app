@@ -18,4 +18,5 @@
            cd /var/www/todo-app/webstack-portfolio-project-todo-app/frontend
            git pull origin main
            npm install
-           pm2 restart todo-frontend || pm2 start $(which npx) --name todo-frontend -- serve -s build -l 3000
+           npm run build 
+           pm2 restart todo-frontend || pm2 start $(which npx) --name todo-frontend -- serve -s dist -l 3000
