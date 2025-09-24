@@ -76,7 +76,7 @@ const Login: React.FC<LoginFormProps> = ({ axios }) => {
 	) : (
     <form className="form" onSubmit={handleSubmit}>
 			<h2> Etta Solutions </h2>
-			<h3>Login</h3>
+			<h3>Sign In</h3>
 			<p className="response">{response}</p>
 			<input placeholder="Username" type="text" value={username} onChange={handleUsernameChange} />
 			<input placeholder="Password" type="password" value={password} onChange={handlePasswordChange} />
