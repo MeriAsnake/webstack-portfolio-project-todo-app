@@ -81,7 +81,7 @@ const Login: React.FC<LoginFormProps> = ({ axios }) => {
 			<input placeholder="Username" type="text" value={username} onChange={handleUsernameChange} />
 			<input placeholder="Password" type="password" value={password} onChange={handlePasswordChange} />
       <button type="submit">Login</button>
-			<a href="/signup">Create an account </a>
+			<a href="/signup">Create an account to continue </a>
     </form>
   );
 };
