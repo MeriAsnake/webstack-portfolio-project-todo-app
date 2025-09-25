@@ -75,12 +75,12 @@ const Login: React.FC<LoginFormProps> = ({ axios }) => {
 		</div>
 	) : (
     <form className="form" onSubmit={handleSubmit}>
-			<h2> Etta Solutions </h2>
+			<h2> Etta</h2>
 			<h3>Login</h3>
 			<p className="response">{response}</p>
 			<input placeholder="Username" type="text" value={username} onChange={handleUsernameChange} />
 			<input placeholder="Password" type="password" value={password} onChange={handlePasswordChange} />
-      <button type="submit">Login</button>
+      <button type="submit">Logout</button>
 			<a href="/signup">Create an account to continue </a>
     </form>
   );
